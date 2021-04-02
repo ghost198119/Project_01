@@ -62,18 +62,18 @@ function showMyDB(hidden){
   }
 }
 
-showMyDB(personalMovieDB.privat);
+// showMyDB(personalMovieDB.privat);
 
 function wrireYourGenres(){
   for(let i=1; i<=3; i++){
     // const genre = prompt(`Ваш любимый жанр под номером ${i}`,'');
     // personalMovieDB.genres[i - 1] = genre;
-    
+
     personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`,'');
   }
 }
 
-wrireYourGenres();
+// wrireYourGenres();
 
 
 console.log(personalMovieDB);
